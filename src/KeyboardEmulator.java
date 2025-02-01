@@ -10,14 +10,12 @@ public class KeyboardEmulator {
     }
 
     public void PressingCtrlV(){
-        robot.delay(200);
-        robot.keyPress(KeyEvent.VK_META);
-
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.delay(50);
         robot.keyPress(KeyEvent.VK_V);
-        robot.delay(100);
 
         robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_META);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
 
     }
 }
