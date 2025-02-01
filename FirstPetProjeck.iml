@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jnativehook-2.2.2" level="project" />
+    <orderEntry type="library" name="ejlchina.okhttps.gson" level="project" />
+    <orderEntry type="library" name="gson-2.12.1" level="project" />
+    <orderEntry type="library" name="squareup.okhttp3.okhttp" level="project" />
   </component>
 </module>
