@@ -1,8 +1,12 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.awt.*;
 import java.awt.datatransfer.*;
 
 
 public class ClipboardManager {
+    private final static Logger logger = LogManager.getLogger(ClipboardManager.class);
     private final Clipboard clipboard;
 
     public ClipboardManager(){

@@ -11,5 +11,6 @@
     <orderEntry type="library" name="ejlchina.okhttps.gson" level="project" />
     <orderEntry type="library" name="gson-2.12.1" level="project" />
     <orderEntry type="library" name="squareup.okhttp3.okhttp" level="project" />
+    <orderEntry type="library" name="apache.logging.log4j.core" level="project" />
   </component>
 </module>

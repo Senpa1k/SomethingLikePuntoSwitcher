@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Конфигурация FileAppender -->
+        <File name="File" fileName="/Users/andrejvorobev/IdeaProjects/FirstPetProjeck/logs/app.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{ISO8601} [%t] %-5p %c - %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Корневой логгер с уровнем INFO -->
+        <Root level="all">
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
